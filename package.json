@@ -1,15 +1,33 @@
 {
   "name": "openweather",
   "version": "1.0.0",
-  "description": "",
+  "description": "### Objectif",
   "main": "index.js",
   "dependencies": {
     "jquery": "^3.2.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^1.0.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-imagemin": "^4.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElisaDemanez/Meteo.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/ElisaDemanez/Meteo/issues"
+  },
+  "homepage": "https://github.com/ElisaDemanez/Meteo#readme"
 }
